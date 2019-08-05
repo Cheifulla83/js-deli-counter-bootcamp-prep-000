@@ -18,7 +18,7 @@ function currentLine(line) {
       sent = sent.concat(`${i + 1}. ${line[i]}, `);
      }
      return sent.slice(0, -2);
-}else {
+      }else {
      return "The line is currently empty.";
      }
      }

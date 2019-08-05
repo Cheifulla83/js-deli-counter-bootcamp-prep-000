@@ -3,10 +3,10 @@ function takeANumber(line, name) {
   return `Welcome, ${name}. You are number ${line.length} in line.`;
 }
 
-
-function takeANumber2(line) {
   var spot = 47;
+function takeANumber2(line) {
   line.push(spot);
+  spot++;
   return `Welcome, you are ${spot}`
 }
 

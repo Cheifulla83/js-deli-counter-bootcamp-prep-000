@@ -16,8 +16,6 @@ function currentLine(line) {
  if(line[0]) {
     for (let i = 0; i < line.length; i++) { 
       sent = sent.concat(`${i + 1}. ${line[i]}, `);
-     
-      
      }
      return sent.slice(0, -2);
 }else {

@@ -5,9 +5,11 @@ function takeANumber(line, name) {
 
   var spot = 47;
 function takeANumber2(line) {
-  line.push(spot);
+ var newSpot = spot
+  line.push(newSpot);
   spot++;
-  return `Welcome, you are ${spot}`
+  
+  return `Welcome, you are ${newSpot}`
 }
 
 

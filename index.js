@@ -35,7 +35,7 @@ function currentLine(line) {
   
 var line = ['Kim', 'Mike', 'John'];
 console.log(currentLine(line));
-takeANumber2(line)
+console.log(takeANumber2(line));
 takeANumber2(line)
 takeANumber2(line)
 console.log(currentLine(line));

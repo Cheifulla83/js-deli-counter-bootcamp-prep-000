@@ -2,6 +2,15 @@ function takeANumber(line, name) {
   line.push(name);
   return `Welcome, ${name}. You are number ${line.length} in line.`;
 }
+
+
+function takeANumber2(line) {
+  var spot = 47;
+  line.push(spot);
+  return `Welcome, you are ${spot}`
+}
+
+
 function nowServing(line) {
   if(line[0]) {
     return `Currently serving ${line.shift()}.`
@@ -24,3 +33,5 @@ function currentLine(line) {
      }
  
   
+var line = ['Kim', 'Mike', 'John'];
+console.log(currentLine(line));

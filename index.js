@@ -15,10 +15,10 @@ function currentLine(line) {
   var sent = 'The line is currently: '
  if(line[0]) {
     for (let i = 0; i < line.length; i++) { 
-      if(line[i] !== 0) {
+      //if(line[i] !== 0) {
       sent = sent.concat(`${i + 1}. ${line[i]}, `);
-      } else {
-       sent = sent.concat(`${i + 1}. ${line[i]}`); }
+     // }// else {
+      // sent = sent.concat(`${i + 1}. ${line[i]}`); }
      }
      return sent.slice(0, -2);
 }else {
